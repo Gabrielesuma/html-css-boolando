@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: orangered;
+    padding-top:50px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    width: 150px;
+}
+
+.navigation{
+    position: fixed;
+    background-color: orangered;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.card{
+    position: relative;
+    width: calc(100% / 3 - 10px);
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+
+.heart{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.badge{
+    background-color: red;
+    color: white;
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
+}
+
+.sost{
+    background-color: green;
+    color: white;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 90px;
+    left: 55px;
+}
+
+.sost2{
+    background-color: green;
+    color: white;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: 90px;
+    left: 0px;
+}
+
+.price{
+    color: red;
+}
+
+span{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.gap{
+    gap: 10px;
+}
+
+footer{
+    background-color: #23272a;
+    color: white;
+}
+
+.heart:hover{
+    color: red;
+}
+
+.secondary-image{
+    display: none;
+}
+
+.card:hover .main-image{
+    display: none;
+}
+
+.card:hover .secondary-image{
+    display: block;
+}
+
+/*utility*/
+
+.d-flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align{
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
